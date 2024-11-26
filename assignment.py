@@ -40,12 +40,16 @@ class Plane:
   def move(self):
     print("Fly!")
 
-car1 = Car("Toyota", "Camry")       
-boat1 = Boat("Spain", "Sailing") 
-plane1 = Plane("Boeing", "747")     
+car = Car("Toyota", "Camry")       
+boat = Boat("Spain", "Sailing") 
+plane = Plane("Boeing", "747")     
 
-for x in (car1, boat1, plane1):
-  print(x.brand)
-  print(x.model)
-  x.move()
+
+car.move()
+boat.move()
+plane.move()
+# for x in (car1, boat1, plane1):
+#   print(x.brand)
+#   print(x.model)
+#   x.move()
         
